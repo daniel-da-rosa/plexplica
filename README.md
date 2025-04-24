@@ -34,6 +34,7 @@ _"A metodologia SCCPE-D³ transforma o código em comunicação clara, o sistema
 - **Lombok** (para simplificar DTOs)
 
 ## 📁 Estrutura do Projeto
+```plaintext
 plexplica/
 ├── src/
 │   └── main/
@@ -48,3 +49,6 @@ plexplica/
 │           └── explicacoes/      # Arquivos JSON com explicações de cada bloco
 └── docs/
     └── adr/                      # Architecture Decision Records (ADRs)
+```
+
+
