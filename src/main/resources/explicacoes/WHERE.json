@@ -1,0 +1,8 @@
+{
+  "tipo": "WHERE",
+  "explicacao": "⚙️ Este bloco aplica condições para filtrar os registros que serão retornados pela consulta.",
+  "tags": ["condição", "filtro", "registros"],
+  "nivel": "básico",
+  "autor": "sccpe-d3",
+  "versao": 1
+}
