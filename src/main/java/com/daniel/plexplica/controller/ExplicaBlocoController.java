@@ -17,6 +17,6 @@ public class ExplicaBlocoController {
     @GetMapping("/{tipo}")
     public String explicar(@PathVariable String tipo) {
         Bloco bloco = new Bloco(tipo, "Conteúdo de teste");
-        return service.explicarBloco(bloco);
+        return null; //service.explicarBloco(bloco);
     }
 }
