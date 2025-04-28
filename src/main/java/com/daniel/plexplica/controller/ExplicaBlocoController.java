@@ -1,22 +1,24 @@
 package com.daniel.plexplica.controller;
 
-import com.daniel.plexplica.domain.modelo.Bloco;
+import com.daniel.plexplica.domain.DTO.BlocoExplicacaoDTO;
+import com.daniel.plexplica.domain.DTO.ExplicacaoRequestDTO;
 import com.daniel.plexplica.service.ExplicacaoService;
-
 import org.springframework.web.bind.annotation.*;
+
 @RestController
 @RequestMapping("/explicar")
 public class ExplicaBlocoController {
 
-    private final ExplicacaoService service;
+    private final ExplicacaoService explicacaoService;
 
-    public ExplicaBlocoController(ExplicacaoService service) {
-        this.service = service;
+    public ExplicaBlocoController(ExplicacaoService explicacaoService) {
+
+        this.explicacaoService = explicacaoService;
     }
 
-    @GetMapping("/{tipo}")
-    public String explicar(@PathVariable String tipo) {
-        Bloco bloco = new Bloco(tipo, "Conteúdo de teste");
-        return null; //service.explicarBloco(bloco);
+    @PostMapping
+    public BlocoExplicacaoDTO explicar(@RequestBody ExplicacaoRequestDTO request){
+        return explicacaoService.explicaBloco(request);
     }
+
 }

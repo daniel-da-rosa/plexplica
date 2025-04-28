@@ -1,8 +1,0 @@
-{
-  "tipo": "ORDER_BY",
-  "explicacao": "📊 Este bloco define a ordenação dos dados retornados pela consulta.",
-  "tags": ["ordenação", "sorting", "consulta"],
-  "nivel": "básico",
-  "autor": "sccpe-d3",
-  "versao": 1
-}

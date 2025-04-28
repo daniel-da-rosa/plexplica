@@ -1,8 +1,0 @@
-{
-  "tipo": "GROUP_BY",
-  "explicacao": "🧮 Este bloco agrupa os registros com base em uma ou mais colunas, geralmente usado com funções de agregação (como SUM, COUNT).",
-  "tags": ["agregação", "grupo", "colunas"],
-  "nivel": "básico",
-  "autor": "sccpe-d3",
-  "versao": 1
-}

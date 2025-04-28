@@ -1,8 +1,0 @@
-{
-  "tipo": "SELECT",
-  "explicacao": "🧠 Este bloco realiza uma seleção de colunas no banco de dados.",
-  "tags": ["consulta", "dados", "colunas"],
-  "nivel": "básico",
-  "autor": "sccpe-d3",
-  "versao": 1
-}

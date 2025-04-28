@@ -1,15 +1,17 @@
 package com.daniel.plexplica.domain.DTO;
 
+import java.util.List;
+
 import lombok.Data;
 
 @Data
 public class ExplicacaoDTO {
-    private String tipo;
     private String explicacao;
-    private String[] tags;
+    private List<String> alertas;
+    private List<String> recomendacoes;
+    private List<String> tags;
     private String nivel;
-    private String autor;
-    private int versao;
+    private String modeloLLM;
 
 
 }

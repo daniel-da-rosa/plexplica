@@ -1,8 +1,0 @@
-{
-  "tipo": "HAVING",
-  "explicacao": "🔎 Este bloco filtra os grupos de dados após a aplicação de uma agregação (como GROUP BY).",
-  "tags": ["filtro", "agregação", "grupo de dados"],
-  "nivel": "básico",
-  "autor": "sccpe-d3",
-  "versao": 1
-}

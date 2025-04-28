@@ -30,10 +30,29 @@
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
+
+		<!-- Dependência para o PostgreSQL -->
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<version>42.7.3</version>
+		</dependency>
+
+		<!-- Dependência para o Spring Data JPA -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-webflux</artifactId>
+		</dependency>
+
 		<dependency>
 			<groupId>org.antlr</groupId>
 			<artifactId>antlr4-runtime</artifactId>
@@ -50,7 +69,8 @@
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
-			<optional>true</optional>
+			<version>1.18.30</version> <!-- ou a versão mais recente -->
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -65,6 +85,12 @@
 				<directory>src/main/resources</directory>
 				<includes>
 					<include>**/*.json</include>
+				</includes>
+			</resource>
+			<resource>
+				<directory>src/main/resources</directory>
+				<includes>
+					<include>**/*</include>
 				</includes>
 			</resource>
 		</resources>

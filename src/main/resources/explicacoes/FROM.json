@@ -1,8 +1,0 @@
-{
-  "tipo": "FROM",
-  "explicacao": "📦 Este bloco informa a origem dos dados da consulta, ou seja, de qual tabela ou conjunto de tabelas os dados serão extraídos.",
-  "tags": ["origem", "tabelas", "joins"],
-  "nivel": "básico",
-  "autor": "sccpe-d3",
-  "versao": 1
-}
