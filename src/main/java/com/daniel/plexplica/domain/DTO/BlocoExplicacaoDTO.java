@@ -1,4 +1,5 @@
 package com.daniel.plexplica.domain.DTO;
+import com.daniel.plexplica.domain.modelo.Metadados;
 
 import java.util.List;
 import lombok.Data;
@@ -7,8 +8,7 @@ import lombok.Data;
 public class BlocoExplicacaoDTO {
     private long id;
     private String sql;
-    private MetadadosDTO metadados;
+    private Metadados metadados;
     private ExplicacaoDTO explicacao;
-    private List<InteracaoDTO> historicoDeInteracoes;
 
 }
